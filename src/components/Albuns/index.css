@@ -1,0 +1,30 @@
+.album {    
+    width: 100%;    
+    font-size: 1.6rem;
+    padding-right: 3rem;
+    padding-left: 3rem;   
+        
+}
+
+.album-nome {
+    font-weight: bold;
+    height: 5rem;
+    padding-top: 3rem; 
+}
+
+.album-faixa {   
+    line-height: 1rem;
+}
+
+.number {
+    width: 50px;
+
+}
+
+.title {
+    width: 1000px;
+}
+
+td > p {
+    margin-bottom:0px;
+}

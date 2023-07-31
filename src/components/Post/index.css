@@ -1,0 +1,47 @@
+.container-new-post {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.album-id-list {
+    width: 104.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+li {
+    font-size: 2rem;
+    text-align: left;
+    list-style-type: none;    
+    width: 100%;
+    margin-left: 50rem;
+}
+.new-post>form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.new-post>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.submit-button {
+    text-align: center; 
+  line-height: 3rem; 
+  width: 18rem;  
+  border: none;
+  background-color: #3b8cff;
+  color: #FFFFFF;
+  height: 3rem;    
+  border-radius: 3rem;
+  font-size: 1.9rem;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background-color: #579dff; 
+  }
+}

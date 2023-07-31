@@ -1,0 +1,49 @@
+.input-search {    
+    width: 100%;
+    margin-top: 0.4rem; 
+    
+}
+
+.input-search p {
+    font-size: 1.9rem;
+    margin-left: 2.9rem;
+    margin-bottom: .9rem;
+    color: #565656;
+}
+
+.input-interface {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem 0 2rem;
+}
+
+.input-interface input {
+    border: none;
+    background-color: #ffffff;
+    height: 6rem;
+    width: 77.3rem;
+    border-radius: 3rem;
+    font-size: 1.9rem;
+    padding-left: 3.7rem; 
+    text-transform: capitalize;  
+}
+
+.input-interface input:focus {
+    outline: none    
+}
+
+.input-interface button {
+    border: none;
+    background-color: #3b8cff;
+    color: #FFFFFF;
+    height: 6rem;
+    width: 21rem;
+    border-radius: 3rem;
+    font-size: 1.9rem;
+    transition: 0.3s ease-in-out;    
+}
+
+.input-interface button:hover {
+    cursor: pointer;
+    background-color: #579dff; 
+}
