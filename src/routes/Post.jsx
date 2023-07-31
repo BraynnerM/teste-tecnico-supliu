@@ -24,7 +24,8 @@ const Post = () => {
 export default Post
 
 const Links = styled(Link)`
-  text-decoration: none;
+  text-decoration: none;  
+  margin-left: 35%;
 `
 
 const Button = styled.p`
@@ -38,8 +39,7 @@ const Button = styled.p`
   border-radius: 3rem;
   font-size: 1.9rem;
   transition: 0.3s ease-in-out;
-  margin-top: 9rem;
-  margin-left: 100%;
+  margin-top: 5rem;  
   &:hover {
     cursor: pointer;
     background-color: #579dff; 
