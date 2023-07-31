@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Teste Técnico - Supliu Tecnologia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta é uma solução para o teste técnico Front end - programador react proposto pela [Supliu Tecnologia](https://supliu.com.br/) no processo seletivo para vaga de trainee.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Visão geral](#visão-geral)
+  - [O desafio](#o-desafio)
+  - [Captura de tela](#captura-de-tela)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Construído com](#construído-com)   
+  - [Recursos úteis](#recursos-úteis)
+- [Autor](#autor)
+- [Agradecimentos](#agradecimentos)
 
-### `npm start`
+## Visão geral
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### O desafio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Os usuários devem ser capazes de:
 
-### `npm test`
+- Ver lista de álbuns e faixas
+- Pesquisar álbuns por nome
+- Adicionar um novo álbum
+- Adicionar uma nova faixa em um álbum
+- Excluir uma faixa
+- Excluir um álbum
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Captura de tela
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./public/assets/screenshot.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- URL da solução: [Github](https://github.com/BraynnerM/teste-tecnico-supliu)
+- URL do site no Github Pages: [Teste técnico Front-end | React](https://teste-tecnico-supliu.vercel.app/)
 
-### `npm run eject`
+## Meu processo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Construído com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Marcação semântica HTML5 
+- Propriedades personalizadas do CSS
+- React.JS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Recursos úteis
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Responsive viewer](https://responsiveviewer.org/) - Me ajudou a visualizar a responsividade do projeto para diferentes tamanhos de tela.
 
-## Learn More
+## Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Linkedin - [BraynnerM](https://www.linkedin.com/in/braynner/)
+- Github - [BraynnerM](https://github.com/BraynnerM)
+- Frontend Mentor - [BraynnerM](https://www.frontendmentor.io/profile/BraynnerM)
+- Twitter - [BraynnerMarques](https://twitter.com/BraynnerMarques)
+- E-mail - [braynnermarques@hotmail.com](mailto:braynnermarques@hotmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Agradecimentos
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Agradeço a [Supliu Tecnologia](https://supliu.com.br/) por me oferecer esta oportunidade de demonstrar meus conhecimentos.
