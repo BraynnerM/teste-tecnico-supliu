@@ -38,8 +38,7 @@ const Albuns = ({ results }) => {
             </tr>
           </thead>
           <tbody>
-          {result.tracks.map((track, id) => (
-            <>
+          {result.tracks.map((track, id) => (            
               <tr className='album-faixa' key={id}>
                 <td>
                 <p>{track.number}</p>
@@ -50,8 +49,7 @@ const Albuns = ({ results }) => {
                 <td>                
                   <p> {formatSecondsToMinutesAndSeconds(track.duration)} </p>                
                 </td>
-              </tr>              
-            </>
+              </tr>            
           ))}
           </tbody>
         </table>

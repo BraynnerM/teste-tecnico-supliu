@@ -65,7 +65,7 @@ const NewDelete = () => {
                     albunsList.map((album, id) => {
                         return (
                             <div className='card' key={id}>
-                                <h2> Album: {album.name}</h2>
+                                <h2> Álbum: {album.name}</h2>
                                 <p>Ano: {album.year}</p>
                                 <button className='delete-button' onClick={() => removeAlbum(album.id)}>Apagar Álbum</button>
                                 {album.tracks.map((track, id) => {
