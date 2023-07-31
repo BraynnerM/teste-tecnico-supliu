@@ -24,8 +24,8 @@ const Post = () => {
 export default Post
 
 const Links = styled(Link)`
-  text-decoration: none;  
-  margin-left: 35%;
+  text-decoration: none;
+  width: 100%;
 `
 
 const Button = styled.p`
@@ -38,10 +38,14 @@ const Button = styled.p`
   height: 6rem;    
   border-radius: 3rem;
   font-size: 1.9rem;
-  transition: 0.3s ease-in-out;
-  margin-top: 5rem;  
+  transition: 0.3s ease-in-out;  
+  margin: 1rem auto; 
   &:hover {
     cursor: pointer;
     background-color: #579dff; 
+  }
+  @media (max-width: 500px) {
+    width: 20rem;
+    font-size: 1.5rem;
   }
 `

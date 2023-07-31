@@ -29,11 +29,12 @@ export default Settings
 
 const Links = styled(Link)`
   text-decoration: none;
+  width: 100%;
 `
 
 const Options = styled.div`
   width: 100%;
-  height: 100%;
+  height: 40rem;  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,9 +53,14 @@ const Button = styled.p`
   border-radius: 3rem;
   font-size: 1.9rem;
   transition: 0.3s ease-in-out;
+  margin: 1rem auto; 
   &:hover {
     cursor: pointer;
     background-color: #579dff; 
+  }
+  @media (max-width: 500px) {
+    width: 20rem;
+    font-size: 1.4rem;
   }
 `
 

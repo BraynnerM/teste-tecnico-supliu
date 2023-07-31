@@ -5,7 +5,13 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 108.5rem;
+  width: 75%;
   height: 90.5rem;  
   background-color:rgba(255, 255, 255, 0.5);  
+}
+
+@media (max-width: 768px) {
+  .interface{
+    height: 140rem;
+  }
 }

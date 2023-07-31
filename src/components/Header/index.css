@@ -41,3 +41,21 @@
     opacity: 1;    
 }
 
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: 21rem;
+    }
+
+    .header .settings-box {
+        height: 11rem; 
+        margin-right: 0;               
+    }
+
+    .header .settings-box h2 {
+        font-size: 3.3rem;
+    }
+
+    
+}
+
